@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100% !important;
+  margin: 0;
+}
+
+.weather-container {
+  background-image: url(https://womenlovetech.com/wp-content/uploads/2020/12/weatherplus-01_xhcqwf.jpg);
+  background-size: cover;
+  background-position: center; /* Optional: Center the image */
+  background-repeat: no-repeat; /* Optional: Prevent repeating the image */
+  width: 100%;
+  padding: 50px 0px;
+}
+h2 {
+  font-size: 33px;
+  font-weight: 400;
+}
