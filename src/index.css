@@ -9,7 +9,18 @@ body {
 }
 
 .weather-container {
-  background-image: url(https://womenlovetech.com/wp-content/uploads/2020/12/weatherplus-01_xhcqwf.jpg);
+  background: linear-gradient(
+    to right,
+    #270081,
+    #b31aff,
+    #0a82fd,
+    #01aff6,
+    #1c318d,
+    #3b51fd
+  );
+
+  /* background: linear-gradient(45deg, #3e2d8f 0%, #9d52ac 100%); */
+
   background-size: cover;
   background-position: center; /* Optional: Center the image */
   background-repeat: no-repeat; /* Optional: Prevent repeating the image */
